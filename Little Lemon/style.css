@@ -1,0 +1,228 @@
+
+body{
+  background-color: #ffffff;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+  border-radius: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #495e57;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a {
+  flex-grow: 1;
+  font-size: large;
+  color: white;
+  background-color: #495e57;
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+  color: #495e57;
+  background-color: #ffffff;
+}
+
+section{
+  display: flex;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+article{
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.promo::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+.promo{
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  height: 50rem;
+  background-image: url('dish2.jpg');
+  background-size:cover;
+  background-position: right, bottom;
+  border-radius: 1rem;
+  z-index: 0;
+}
+
+.promo h1{
+  padding-left: 4rem;
+}
+.promo p {
+  padding-top: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #495e57;
+  border-radius: 1rem;
+  border-width: 0.2rem;
+  border-color: #ffffff;
+  border-style: solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.menu a{
+  color: #ffffff;
+}
+
+.menu h2{
+  text-align: center;
+}
+
+.menu p{
+  text-align: justify;
+  padding: 2rem;
+}
+
+.menu img{
+  width: 80%;
+  height: 80%;
+}
+
+.booking{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #495e57;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border-width: 0.2rem;
+  border-color: #495e57;
+  border-style: solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.booking a{
+  color: #495e57;
+}
+
+.booking h2{
+  text-align: center;
+}
+
+.booking img{
+  width: 80%;
+  height: 60%;
+}
+
+.booking p{
+  text-align: justify;
+  padding: 2rem;
+}
+
+.hours{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #495e57;
+  background-color: #fdff7b;
+  border-radius: 1rem;
+  border-width: 0.2rem;
+  border-color: #ffffff;
+  border-style: solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+} 
+
+.hours a{
+  color: #000000;
+}
+
+.hours h2{
+  text-align: center;
+}
+.hours img{
+  width: 80%;
+  height: 60%;
+}
+.hours p{
+  text-align: justify;
+  padding: 2rem;
+}
+
+footer{
+  display: flex;
+  border-top: 3px solid #495e57;
+}
+
+footer div{
+  flex: 1;
+}
+
+footer img{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+footer h4{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: right;
+  padding-top: 1rem;
+}
